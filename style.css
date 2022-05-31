@@ -1,0 +1,17 @@
+h1, h3{
+    text-align: center;
+}
+
+.buyingData{
+    text-align: center;
+}
+
+.outputData{
+    text-align: center;
+}
+
+.calculateBtn{
+    text-align: center;
+
+    margin: 30px;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,20 +13,32 @@
     <h3>Apple buying data</h3>
 
     <div class="buyingData">
-        <label for="">Cost price for a box of apples:   </label> <input type="text" > <br>
-        <label for=""> Number of apples in the box</label> <input type="text"> <br>
-        <label for=""> The packet size apples in the box</label> <input type="text"><br>
-        <label for="">Required profit %</label> <input type="text"><br>
+        <label for="" >Cost price for a box of apples:   </label> <input type="number" value="" class="boxCost"> <br>
+        <label for=""> Number of apples in the box</label> <input type="number" class="numberOfApples" value=""> <br>
+        <label for=""> The packet size apples in the box</label> <input type="number" value="" class="applesInPack"><br>
+        <label for="">Required profit %</label> <input type="number"  value="" class="profit"><br>
+
+
     </div>
+
+    <div class="calculateBtn"> 
+        <button>Calculate</button>
+    </div>
+    
+
+
 
     <h3>Apples price calculations</h3>
     <div class="outputData">
-        <label for="">Number of packets</label> <br>
-        <label for="">Cost price per apple</label> <br>
-        <label for="">Cost price per packet</label> <br>
-        <label for="">Recommended selling packet price</label> <br>
+        <label for="" >Number of packets : <span class="numberOfPackets"></span></label>  <br>
+        <label for="">Cost price per apple :</label> <br>
+        <label for="">Cost price per packet :</label> <br>
+        <label for="">Recommended selling packet price :</label> <br>
 
     </div>
+
+    <script src="applePlalnner.js"></script>
+    <script src="applePlanner.dom.js"></script>
     
 </body>
 </html>

@@ -47,7 +47,8 @@ function SettingsApple(){
 
     //calculations
     function applesCost(){
-        costPerApple = marketBoxCost/numberOfApples;
+        // costPerApple = marketBoxCost/numberOfApples;
+        costPerApple = getBoxCost()/getApplesInBox()
     }
     
     function getAppleCost(){
